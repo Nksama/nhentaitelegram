@@ -14,7 +14,7 @@ module.exports.saveAndGetUser = async function (ctx) {
       language_code: ctx.from.language_code,
       search_sorting: "date",
       search_type: "photo",
-      random_localy: true,
+      random_localy: false,
       can_repeat_in_random: true,
     })
 
